@@ -1,1 +1,1 @@
-web: gunicorn secure-shore-81083.wsgi --log-file -
+web: gunicorn app.wsgi --log-file -
