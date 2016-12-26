@@ -17,13 +17,14 @@
 * Python --version=2.7.12
     
     需要的套件位於 requirements.txt 使用
-    ```
     
+    ```
     pip install -r requirements.txt
     ```
     
     安裝相關套件
 * Heroku
+    
     首先先設定帳號的環境變數，因為它們不應被寫死在code中
     ```
     heroku config:set "LINE_CHANNEL_SECRET"="your_line_secret"
@@ -39,9 +40,10 @@
     git push heroku master
     ```
 * Finnal
-    將LINE developers 上的 webhook設定成heroku的網址
-    ```
     
+    將LINE developers 上的 webhook設定成heroku的網址
+    
+    ```
     https://"your heroku".herokuapp.com/callback
     ```
     最後用LINE ID加入你的chatbot and
