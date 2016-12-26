@@ -8,7 +8,7 @@
         * 如果句中以上情況都不包含，則返回今日的天氣
     * 地點則為輸入XX(市、縣)請注意"臺"必須為此繁體字
 * 其他則是照原句返回  
-## 環境架設
+## 環境架設  
 * 預先準備
     * [LINE Messange Api 帳號](https://business.line.me/zh-hant/services/bot)
     * [Heroku 帳號](https://dashboard.heroku.com/)
@@ -22,9 +22,9 @@
 * Heroku  
     首先先設定帳號的環境變數，因為它們不應被寫死在code中  
     ```
-    heroku config:set "LINE_CHANNEL_SECRET"="your_line_secret"  
-    heroku config:set "LINE_CHANNEL_ACCESS_TOKEN"="your_access_token"  
-    heroku config:set "API_KEY"="氣象資料開放平台 授權碼"  
+    heroku config:set "LINE_CHANNEL_SECRET"="your_line_secret"</br>
+    heroku config:set "LINE_CHANNEL_ACCESS_TOKEN"="your_access_token"</br>
+    heroku config:set "API_KEY"="氣象資料開放平台 授權碼"</br>
     ```
     接下來將整份專案push到heroku上完成  
     ```
