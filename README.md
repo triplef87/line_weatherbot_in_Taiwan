@@ -7,7 +7,7 @@
         * 如果句中包含明天，則返回明日的天氣
         * 如果句中以上情況都不包含，則返回今日的天氣
     * 地點則為輸入XX(市、縣)請注意"臺"必須為此繁體字
-* 其他則是照原句返回
+* 其他則是照原句返回  
 ## 環境架設
 * 預先準備
     * [LINE Messange Api 帳號](https://business.line.me/zh-hant/services/bot)
@@ -33,7 +33,7 @@
     git push heroku master
     ```
 * Finnal
-    將LINE developers 上的 webhook設定成heroku的網址
+    將LINE developers 上的 webhook設定成heroku的網址  
     ```
     https://"your heroku".herokuapp.com/callback
     ```
