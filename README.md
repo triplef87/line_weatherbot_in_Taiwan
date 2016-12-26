@@ -13,14 +13,14 @@
     * [LINE Messange Api 帳號](https://business.line.me/zh-hant/services/bot)
     * [Heroku 帳號](https://dashboard.heroku.com/)
     * [氣象資料開放平臺 帳號](http://opendata.cwb.gov.tw/index)
-* Python --version=2.7.12
-    需要的套件位於 requirements.txt 使用
+* Python --version=2.7.12  
+    需要的套件位於 requirements.txt 使用  
     ```
-    pip install -r requirements.txt
+    pip install -r requirements.txt  
     ```
-    安裝相關套件
-* Heroku
-    首先先設定帳號的環境變數，因為它們不應被寫死在code中
+    安裝相關套件  
+* Heroku  
+    首先先設定帳號的環境變數，因為它們不應被寫死在code中  
     ```
     heroku config:set "LINE_CHANNEL_SECRET"="your_line_secret"
     heroku config:set "LINE_CHANNEL_ACCESS_TOKEN"="your_access_token"
