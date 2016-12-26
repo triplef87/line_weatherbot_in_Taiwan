@@ -8,6 +8,7 @@
         * 如果句中以上情況都不包含，則返回今日的天氣
     * 地點則為輸入XX(市、縣)請注意"臺"必須為此繁體字
 * 其他則是照原句返回
+
 ## 環境架設
 * 預先準備
     * [LINE Messange Api 帳號](https://business.line.me/zh-hant/services/bot)
@@ -37,6 +38,7 @@
 * Finnal
     將LINE developers 上的 webhook設定成heroku的網址
     ```
+    
     https://"your heroku".herokuapp.com/callback
     ```
     最後用LINE ID加入你的chatbot and
